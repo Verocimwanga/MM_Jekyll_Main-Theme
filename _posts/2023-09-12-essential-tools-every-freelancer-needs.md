@@ -1,14 +1,8 @@
 ---
 titile: "Essential Tools Every Freelancer Needs"
 image: /assets/img/post-17.jpg
-slide_image: /assets/img/post-landscape-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["Success stories", "Journeys"]
-slide: false
 featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
 ---

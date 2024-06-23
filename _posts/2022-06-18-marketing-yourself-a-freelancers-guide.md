@@ -1,14 +1,8 @@
 ---
 title: "Marketing Yourself: A Freelancer's Guide"
 image: /assets/img/post-3.jpg
-slide_image: /assets/img/post-landscape-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "guide", "marketing"]
-tags: ["Marketing your self", "Journeys"]
-slide: false
 featured: false
-trending: false
-popular: true
 layout: post
 author: mugabi
 ---

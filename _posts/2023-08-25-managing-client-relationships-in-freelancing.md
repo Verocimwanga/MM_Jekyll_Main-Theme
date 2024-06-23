@@ -1,16 +1,10 @@
 ---
 title: "Managing Client Relationships in Freelancing"
 image: /assets/img/post-16.jpg
-slide_image: /assets/img/post-landscape-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["Platforms", "Career"]
-slide: false
-featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
+featured: false
 ---
 
 #### Introduction

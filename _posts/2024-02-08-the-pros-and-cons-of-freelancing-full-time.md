@@ -1,16 +1,10 @@
 ---
 title: "The Pros and Cons of Freelancing Full-Time"
 image: /assets/img/post-22.jpg
-slide_image: /assets/img/slide-1.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["2024", "trends"]
-slide: true
-featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
+featured: false
 ---
 
 #### Introduction

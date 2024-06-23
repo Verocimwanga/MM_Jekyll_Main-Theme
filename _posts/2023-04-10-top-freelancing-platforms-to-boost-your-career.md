@@ -1,14 +1,8 @@
 ---
 title: "Top Freelancing Platforms to Boost Your Career"
 image: /assets/img/post-12.jpg
-slide_image: /assets/img/post-landscape-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["Platforms", "Career"]
-slide: false
 featured: true
-trending: false
-popular: false
 layout: post
 author: mugabi
 ---

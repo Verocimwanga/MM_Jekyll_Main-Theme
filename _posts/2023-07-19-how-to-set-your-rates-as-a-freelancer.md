@@ -1,14 +1,8 @@
 ---
 title: "How to Set Your Rates as a Freelancer"
 image: /assets/img/post-15.jpg
-slide_image: /assets/img/post-landscape-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["Success stories", "Journeys"]
-slide: false
 featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
 ---

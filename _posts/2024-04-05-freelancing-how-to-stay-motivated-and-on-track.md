@@ -1,16 +1,10 @@
 ---
 title: "Freelancing: How to Stay Motivated and On Track"
 image: /assets/img/post-24.jpg
-slide_image: /assets/img/slide-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["How to", "be on tack"]
-slide: true
-featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
+featured: false
 ---
 
 #### Introduction

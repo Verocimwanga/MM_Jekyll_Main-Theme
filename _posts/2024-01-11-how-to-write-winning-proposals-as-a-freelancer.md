@@ -1,14 +1,8 @@
 ---
 title: "How to Write Winning Proposals as a Freelancer"
 image: /assets/img/post-21.jpg
-slide_image: /assets/img/slide-4.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["2024", "trends"]
-slide: true
 featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
 ---

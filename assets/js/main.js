@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     speed: 500,
     centeredSlides: true,
     loop: true,
-    slideToClickedSlide: true,
+    slideToClicked,
     autoplay: {
       delay: 3000,
       disableOnInteraction: false,

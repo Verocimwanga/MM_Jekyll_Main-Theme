@@ -1,16 +1,10 @@
 ---
 title: "Welcome to Jekyll!"
 image: /assets/img/post-26.jpg
-slide_image: /assets/img/slide-1.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["How to", "be on tack"]
-slide: false
-featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
+featured: false
 ---
 
 #### Introduction

@@ -1,14 +1,8 @@
 ---
 title: "How to Transition from a 9-5 Job to Freelancing"
 image: /assets/img/post-5.jpg
-slide_image: /assets/img/post-landscape-3.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["Success stories", "Journeys"]
-slide: false
 featured: false
-trending: false
-popular: true
 layout: post
 author: mugabi
 ---

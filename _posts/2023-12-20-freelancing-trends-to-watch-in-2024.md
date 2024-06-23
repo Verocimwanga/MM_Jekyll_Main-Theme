@@ -1,16 +1,10 @@
 ---
 title: "Freelancing Trends to Watch in 2024"
 image: /assets/img/post-20.jpg
-slide_image: /assets/img/slide-5.jpg
 description: "Explore effective strategies for balancing work and personal life as a freelancer."
-categories: ["freelance", "web develop"]
-tags: ["2024", "trends"]
-slide: true
-featured: false
-trending: false
-popular: false
 layout: post
 author: mugabi
+featured: false
 ---
 
 #### Introduction
