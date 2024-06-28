@@ -35,7 +35,7 @@
                       </h2>
                       <p class="mb-2 d-block">{{posts.description}}</p>
                       <div class="post-meta">
-                        <span> {{ posts.date | date: "%b %-d" }} </span>
+                        <span> {{ posts.date | date: "%b %d, %Y" }} </span>
 
                         <span class="mx-1">&bullet;</span>
                         <span>
@@ -87,7 +87,11 @@
                               </h2>
                               <p class="mb-2 d-block">{{posts.description}}</p>
                               <div class="post-meta">
-                                <span> {{ posts.date | date: "%b %-d" }} </span>
+                                <span>
+                                  <span>
+                                    {{ posts.date | date: "%b %d, %Y" }}
+                                  </span>
+                                </span>
                                 <span class="mx-1">&bullet;</span>
                                 <span>
                                   <!---->
@@ -141,7 +145,11 @@
                               <p class="mb-1 d-block">{{posts.description}}</p>
 
                               <div class="post-meta">
-                                <span> {{ posts.date | date: "%b %-d" }} </span>
+                                <span>
+                                  <span>
+                                    {{ posts.date | date: "%b %d, %Y" }}
+                                  </span>
+                                </span>
                                 <span class="mx-1">&bullet;</span>
                                 <span>
                                   <!---->
@@ -197,7 +205,9 @@
                               <p class="mb-1 d-block">{{posts.description}}</p>
 
                               <div class="post-meta">
-                                <span> {{ posts.date | date: "%b %-d" }} </span>
+                                <span>
+                                  {{ posts.date | date: "%b %d, %y" }}
+                                </span>
                                 <span class="mx-1">&bullet;</span>
                                 <span>
                                   <!---->

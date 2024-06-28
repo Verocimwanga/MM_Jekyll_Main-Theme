@@ -409,7 +409,7 @@ section {
   margin-bottom: 10px;
 }
 .post-meta span a {
-  color: #777;
+  color: #363737;
 }
 .author {
   display: flex;
@@ -540,7 +540,9 @@ section {
 .post-entry-2 .thumbnail img {
   border-radius: 8px;
 }
-
+.under {
+  color: #363737 !important;
+}
 .under a:hover {
   text-decoration: none !important;
 }
