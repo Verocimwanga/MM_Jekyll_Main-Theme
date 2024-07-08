@@ -21,7 +21,7 @@
                 />
                 <div class="content post-meta">
                   <h1>{{page.name}}</h1>
-                  <span> @{{page.x_name}} </span>
+                  <span>@{{page.x_name}}</span>
                 </div>
               </div>
               <div class="single-post">
@@ -49,22 +49,22 @@
               <hr />
             </div>
             <div class="col-md-9">
-              {% for posts in site.posts %}
+              {% for post in site.posts %} {% if post.author == page.x_name %}
               <!---->
-              {% if posts.featured != true %}
+              {% if post.featured != true %}
               <div class="row post-entry-2 small-img align-items-center">
                 <div class="col-8">
                   <h3>
-                    <a href="{{ posts.url }}">{{ posts.title }}</a>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
                   </h3>
-                  <p>{{ posts.description }}</p>
+                  <p>{{ post.description }}</p>
                   <div class="post-meta">
-                    <span> {{ posts.date | date: "%b %d, %y" }} </span>
+                    <span> {{ post.date | date: "%b %d, %y" }} </span>
                     <span class="mx-1">&bullet;</span>
                     <span>
                       <!---->
                       {% assign author = site.authors | where: 'short_name',
-                      posts.author | first %}
+                      post.author | first %}
                       <!---->
                       {% if author %}
                       <a href="{{ author.url }}">{{ author.name }}</a>
@@ -73,17 +73,17 @@
                   </div>
                 </div>
                 <div class="col-4">
-                  <a href="{{ posts.url }}" class="me-4 thumbnail">
+                  <a href="{{ post.url }}" class="me-4 thumbnail">
                     <img
-                      src="{{ posts.image }}"
-                      alt="{{ posts.title }}"
+                      src="{{ post.image }}"
+                      alt="{{ post.title }}"
                       class="img-fluid"
                     />
                   </a>
                 </div>
               </div>
               <hr />
-              {% endif %} {% endfor %}
+              {% endif %} {% endif %} {% endfor %}
             </div>
           </div>
         </div>
