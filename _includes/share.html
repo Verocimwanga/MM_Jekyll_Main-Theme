@@ -1,5 +1,8 @@
-{% if include.pageurl != nil and include.pageurl != '' %} {% assign pageurl =
-include.pageurl %} {% else %} {% assign pageurl = page.url %} {% endif %}
+{% if include.pageurl != nil and include.pageurl != '' %}
+<!---->
+{% assign pageurl = include.pageurl %} {% else %}
+<!---->
+{% assign pageurl = page.url %} {% endif %}
 
 <style>
   #share-buttons {
@@ -72,7 +75,7 @@ include.pageurl %} {% else %} {% assign pageurl = page.url %} {% endif %}
   <div
     class="facebook"
     title="Share this on Facebook"
-    onclick="window.open('http://www.facebook.com/share.php?u={{ site.url }}{{ pageurl }}');"
+    onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}', 'facebook-share-dialog', 'width=626,height=436'); return false;"
   >
     <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -80,6 +83,7 @@ include.pageurl %} {% else %} {% assign pageurl = page.url %} {% endif %}
       />
     </svg>
   </div>
+
   <div
     class="twitter"
     title="Share this on Twitter"
