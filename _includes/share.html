@@ -75,7 +75,7 @@
   <div
     class="facebook"
     title="Share this on Facebook"
-    onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}', 'facebook-share-dialog', 'width=626,height=436'); return false;"
+    onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ site.url | uri_escape }}{{ page.url | uri_escape }}', 'facebook-share-dialog', 'width=626,height=436'); return false;"
   >
     <svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
       <path
